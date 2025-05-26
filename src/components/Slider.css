@@ -1,0 +1,88 @@
+.slide-image {
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-caption.custom-caption {
+  text-align: left;
+  left: 50px;
+  right: 0;
+  top: 100px;
+  bottom: unset;
+}
+
+.carousel-indicators .active {
+  display: none;
+}
+
+.carousel-caption .para {
+  color: #2d3a4b;
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.carousel-caption .para2 {
+  color: #2d3a4b;
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.carousel-caption span {
+  color: #212529;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.carousel-caption span small sup {
+  font-size: 18px;
+}
+
+.carousel-caption .shop-btn {
+  color: #2d3a4b;
+  font-size: 14px;
+  background-color: #ffe115;
+  margin-top: 40px;
+  padding: 15px 40px;
+  font-weight: bold;
+  border-radius: 2px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+  z-index: 11;
+}
+
+.carousel-caption .shop-btn:hover {
+  color: white !important;
+  background-color: #2d3a4b !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .slide-image {
+    height: 400px;
+  }
+
+  .carousel-caption.custom-caption {
+    top: 50px;
+    left: 20px;
+    padding-right: 20px;
+  }
+
+  .carousel-caption .para2 {
+    font-size: 38px;
+  }
+
+  .carousel-caption .para {
+    font-size: 18px;
+  }
+
+  .carousel-caption span {
+    font-size: 24px;
+  }
+
+  .carousel-caption .shop-btn {
+    padding: 12px 30px;
+    font-size: 13px;
+  }
+}

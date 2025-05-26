@@ -1,0 +1,47 @@
+.heading-container {
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 0 15px;
+}
+
+.heading-title {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #2d3a4b; 
+}
+
+.heading-description {
+  font-size: 14px;
+  color: #666666;
+  display: block;
+  margin-bottom: 30px;
+}
+.tab-container{
+    margin-bottom: 40px;
+}
+
+
+
+.tabs .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d3a4b;
+  padding: 12px 20px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.tabs .nav-link:hover {
+  color: #ffe115; 
+  border-bottom: 3px solid #ffe115;
+}
+
+.tabs .nav-link.active {
+  color: #ffe115;
+  border-bottom: 3px solid #ffe115;
+  background-color: transparent;
+  font-weight: 700;
+}

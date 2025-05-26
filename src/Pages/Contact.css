@@ -1,0 +1,116 @@
+.contact-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 100px 30px;
+  font-family: "Arial", sans-serif;
+  color: #2d3a4b;
+}
+
+.contact-section h4 {
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contact-section input,
+.contact-section textarea {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  font-size: 1rem;
+  font-family: "Arial", sans-serif;
+  color: #2d3a4b;
+  transition: border-color 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  outline: none;
+  border-color: #eef115;
+  box-shadow: 0 0 0 0.2rem rgba(238, 241, 21, 0.25);
+}
+
+.contact-section textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.contact-section button.btn {
+  background-color: #2d3a4b;
+  border-radius: 2px;
+  color: white;
+  font-weight: 700;
+  padding: 12px 40px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 15px auto 0;
+  border: none;
+}
+
+.contact-section button.btn:hover {
+  background-color: #eef115;
+  color: #2d3a4b;
+}
+
+.text-danger {
+  color: #dc3545;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.address-box {
+  background-color: #f8f9fa;
+  border: 1px solid #eef115;
+  padding: 25px;
+  border-radius: 8px;
+  font-family: "Arial", sans-serif;
+  color: #2d3a4b;
+}
+
+.address-box h6 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.address-box p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.address-box p svg {
+  margin-right: 10px;
+  color: #2d3a4b;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+  .banner-text p {
+    font-size: 1rem;
+  }
+
+  .contact-section h4 {
+    font-size: 1.5rem;
+  }
+
+  .address-box {
+    padding: 20px;
+  }
+
+  .contact-section .row > .col-md-6 {
+    margin-bottom: 15px;
+  }
+}

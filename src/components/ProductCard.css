@@ -1,0 +1,47 @@
+.product-image-container {
+  position: relative;
+}
+.product-overlay .btn1,
+.product-overlay .btn2 {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d3a4b;
+  display: none;
+  transition: opacity 0.3s ease-in-out;
+}
+.product-overlay .btn1 {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+}
+.product-overlay .btn2 {
+  bottom: 0;
+  left: -9px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+.card:hover .product-overlay .btn1,
+.card:hover .product-overlay .btn2 {
+  display: flex;
+}
+.product-overlay .btn2:hover {
+  color: white;
+  background-color: #48576b;
+}
+.card-body {
+  background-color: #00000008;
+}
+.card-body .card-title {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.card-body .card-text {
+  color: #2d3a4b;
+  font-size: 15px;
+}

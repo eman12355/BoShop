@@ -1,0 +1,60 @@
+.checkout-page .container {
+  max-width: 960px;
+  margin: 100px auto; 
+  padding: 0 30px;
+}
+
+.card-box1 {
+  background-color: #00000008;
+  color: #2d3a4b;
+  
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #2d3a4b;
+  margin-bottom: 20px;
+}
+
+.confirmorder-btn {
+  background-color: #2d3a4b;
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+  padding: 15px 40px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: 100%;
+}
+
+.confirmorder-btn:hover {
+  background-color: #eef115 !important;
+  color: #2d3a4b !important;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+  .banner-text p {
+    font-size: 1rem;
+  }
+
+  .card-box1 {
+    padding: 20px;
+  }
+}
+
+.empty-cart-msg {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 40px 0;
+  color: #555;
+}

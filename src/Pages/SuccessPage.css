@@ -1,0 +1,53 @@
+.card-box2 {
+  margin: 50px auto;
+  padding: 30px;
+  color: #2d3a4b;
+  background-color: #00000008;
+  border-radius: 6px;
+  max-width: 900px;
+}
+
+.back-btn {
+  background-color: #2d3a4b;
+  font-size: 14px;
+  color: white;
+  margin-top: 30px;
+  padding: 15px 40px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-btn:hover {
+  color: #2d3a4b !important;
+  background-color: #ffe115 !important;
+}
+
+/* 👇 Responsive */
+@media (max-width: 768px) {
+  .card-box2 {
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card-box2 .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-box2 .col-md-6 {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .list-group-item {
+    text-align: left;
+  }
+
+  .back-btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}
